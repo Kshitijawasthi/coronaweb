@@ -1,0 +1,55 @@
+body{
+    background-color: silver;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+span{
+    font-size: 9px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:rgb(222, 183, 183);
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
